@@ -1,11 +1,10 @@
 import React from 'react';
 import StarRating from 'react-native-star-rating';
 import {colors} from '~/styles';
-import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
 import {Container, Pic, MovieTitle, RightView, MovieRelease} from './styles';
 
-const TopItem = ({item, navigation}) => (
+const TopItem = ({item, index, navigation}) => (
   <Container onPress={() => navigation.navigate('MovieDetails', {item})}>
     <Pic
       resizeMode="contain"

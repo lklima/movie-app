@@ -1,6 +1,6 @@
 import React from 'react';
-import {View} from 'react-native';
+import {Container} from './styles';
 
-const Favorites = () => <View />;
+const Favorites = () => <Container />;
 
 export default Favorites;

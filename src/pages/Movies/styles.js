@@ -12,9 +12,20 @@ export const Container = styled.View`
   padding: 20px;
 `;
 
+export const LoadContainer = styled.View`
+  background: ${colors.secondary};
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+`;
+
 export const TopView = styled.View`
   width: 100%;
   height: 250px;
+`;
+
+export const Scroll = styled.ScrollView`
+  flex: 1;
 `;
 
 export const SectionTitleView = styled.View`

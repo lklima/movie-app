@@ -1,7 +1,6 @@
 import React from 'react';
+import {Container} from './styles';
 
-import {View} from 'react-native';
-
-const User = () => <View />;
+const User = () => <Container />;
 
 export default User;
